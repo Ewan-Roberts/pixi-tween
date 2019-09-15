@@ -2,7 +2,7 @@ import * as PIXI from 'pixi.js';
 
 export default class TweenPath {
   constructor(){
-    this._colsed = false;
+    this._closed = false;
     this.polygon = new PIXI.Polygon();
     this.polygon.closed = false;
     this._tmpPoint = new PIXI.Point();
